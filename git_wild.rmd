@@ -51,7 +51,13 @@ my_second_favorite_number <- 80085
 ```
 
 ```{r break-it-2}
+###Why was four afraid to ask out 5?
+### Because it was 2^2
 
+ggplot(data = diamonds, aes(x = clarity, y = price)) +
+  geom_jitter()+
+  theme_dark() +
+  ggtitle("Evan Droolz")
 ```
 
 ## END Discussion 3
