@@ -51,7 +51,9 @@ my_second_favorite_number <- 80085
 ```
 
 ```{r break-it-2}
+# Hi AJ! This is broken
 
+my_favorite_numberer <- 42069
 ```
 
 ## END Discussion 3
