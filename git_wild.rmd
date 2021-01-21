@@ -35,8 +35,19 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+
+diamond_violin <- ggplot(data = diamonds, aes(x = clarity, y = price)) +
+  geom_violin() +
+  theme_test() +
+  ggtitle("Evan roolz")
+
+# Ding dong bing bong
+
+diamond_violin
+
 my_favorite_number <- 69420
 my_second_favorite_number <- 80085
+
 ```
 
 ```{r break-it-2}
